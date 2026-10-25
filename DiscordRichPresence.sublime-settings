@@ -1,0 +1,5 @@
+{
+    "connect_on_startup": false,
+    "details": "Editing {file} - {loc} lines",
+    "state": "Project: '{project}'"
+}

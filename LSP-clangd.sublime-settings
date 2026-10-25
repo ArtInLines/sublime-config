@@ -1,0 +1,9 @@
+// Settings in here override those in "LSP-clangd/LSP-clangd.sublime-settings"
+{
+    "selector": "source.h | source.c | source.c++ | source.objc | source.objc++ | source.cuda-c++",
+    "initializationOptions": {
+        "fallbackFlags": "-Wno-newline-eoff",
+        "clangd.header-insertion": "never",
+        "clangd.clang-tidy": false
+    }
+}

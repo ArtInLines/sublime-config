@@ -1,0 +1,45 @@
+// Settings in here override those in "LSP/LSP.sublime-settings"
+{
+    "semantic_highlighting": true,
+    "clients": {
+        "odin": {
+            "command": [
+                "/Languages/tools/ols/ols.exe"
+            ],
+            "enabled": true, // true for globally-enabled, but not required due to 'Enable In Project' command
+            "selector": "source.odin",
+            "initializationOptions": {
+                "collections": [
+                    {
+                        "name": "root",
+                        "path": "./"
+                    }
+                ],
+                "enable_semantic_tokens": true,
+                "enable_document_symbols": true,
+                "enable_hover": true,
+                "enable_snippets": true,
+                "enable_format": false,
+                "enable_procedure_snippet": true,
+            }
+        },
+        "go": {
+            "command": [
+                "/Users/Val/go/bin/gopls.exe"
+            ],
+            "enabled": true,
+            "selector": "source.go",
+            "show_references_in_quick_panel": true,
+            "log_debug": true,
+            "inhibit_snippet_completions": true,
+            "inhibit_word_completions": true,
+        },
+        "zig": {
+            "command": [
+                "/Languages/zig/zls/zls.exe"
+            ],
+            "enabled": true,
+            "selector": "source.zig",
+        },
+    }
+}

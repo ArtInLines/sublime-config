@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Discord Rich Presence",
+		"FileBrowser",
+		"FileIcons",
+		"Julia",
+		"LSP",
+		"LSP-clangd",
+		"LSP-tailwindcss",
+		"MasmAssembly",
+		"multiAlign",
+		"Odin",
+		"OpenGL Shading Language (GLSL)",
+		"Package Control",
+		"PackageDev",
+		"Rust Enhanced",
+		"SublimeLinter",
+		"SublimeLinter-clang",
+		"Tailwind CSS",
+		"Terminus",
+		"TOML",
+		"Zig Language",
+	],
+	"debug": true,
+}

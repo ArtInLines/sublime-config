@@ -1,0 +1,16 @@
+{
+    "windows": "Cmder",
+    "shell_configs": [
+        {
+            "name": "Cmder",
+            "cmd": "cmder.exe",
+            "env": {},
+            "enable": true,
+            "platforms": ["windows"],
+        },
+    ],
+    "preserve_keys": [
+        "ctrl+k",
+        "ctrl+p",
+    ],
+}

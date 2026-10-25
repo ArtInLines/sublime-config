@@ -1,0 +1,40 @@
+// SublimeLinter Settings - User
+{
+    "debug": false,
+    "lint_mode": "load_save",
+    "linters": {
+        "clang": {
+            "args": "-Wall -Wextra -Wpedantic -std=c11 -fsyntax-only -fno-caret-diagnostics",
+            "I": [
+                "${file_path}/",
+                "${folder}/deps",
+                "${folder}/src",
+                "${project_path}/deps",
+                "${project_path}/src",
+            ],
+            // "selector": "source.c source.h",
+        },
+        // "gcc": {
+        //     "disable": false,
+        //     // C-specific settings
+        //     "c_executable": "clang",
+        //     "c_extra_flags": [
+        //         " -Wall",
+        //         "-Wextra",
+        //         "-Wpedantic",
+        //         "-std=c11",
+        //         "-fsyntax-only",
+        //         "-fno-caret-diagnostics",
+        //     ],
+        //     "include_dirs": [
+        //         "${file_path}/",
+        //         "${folder}/deps",
+        //         "${folder}/src",
+        //         "${project_path}/deps",
+        //         "${project_path}/src",
+        //         "${project_path}/deps",
+        //     ],
+        // },
+    },
+    "show_panel_on_save": "window",
+}
